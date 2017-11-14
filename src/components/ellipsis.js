@@ -48,5 +48,3 @@ export default class Ellipsis {
     }
   
   }
-  
-  let elp = new Ellipsis();
