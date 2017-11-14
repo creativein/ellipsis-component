@@ -2,7 +2,7 @@ import $ from 'jquery';
 export default class Ellipsis {
   
     init(container = document.body) {
-      let components = $('div[data-ellipsis]');
+      let components = $('div[data-ellipsis]', container);
       this.process(components);
     }
     
